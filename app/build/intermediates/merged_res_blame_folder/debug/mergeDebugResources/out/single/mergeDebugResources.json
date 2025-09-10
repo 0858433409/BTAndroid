@@ -8,6 +8,10 @@
         "source": "com.example.bt1_baitoanptb2.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
+        "merged": "com.example.bt1_baitoanptb2.app-debug-31:/layout_activity_implicit_demo.xml.flat",
+        "source": "com.example.bt1_baitoanptb2.app-main-33:/layout/activity_implicit_demo.xml"
+    },
+    {
         "merged": "com.example.bt1_baitoanptb2.app-debug-31:/layout_activity_main.xml.flat",
         "source": "com.example.bt1_baitoanptb2.app-main-33:/layout/activity_main.xml"
     },
@@ -42,6 +46,10 @@
     {
         "merged": "com.example.bt1_baitoanptb2.app-debug-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "com.example.bt1_baitoanptb2.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.bt1_baitoanptb2.app-debug-31:/layout_activity_enter.xml.flat",
+        "source": "com.example.bt1_baitoanptb2.app-main-33:/layout/activity_enter.xml"
     },
     {
         "merged": "com.example.bt1_baitoanptb2.app-debug-31:/mipmap-hdpi_ic_launcher_round.webp.flat",

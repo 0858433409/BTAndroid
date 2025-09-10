@@ -25,6 +25,9 @@
         </activity>
         <activity android:name=".KetQua"></activity>
         <activity android:name=".Nhap"></activity>
+        <activity android:name=".ImplicitDemoActivity"/>
+
+
 
     </application>
 

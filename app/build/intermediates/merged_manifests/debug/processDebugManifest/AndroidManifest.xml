@@ -39,6 +39,8 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.bt1_baitoanptb2.KetQua" />
+        <activity android:name="com.example.bt1_baitoanptb2.Nhap" />
+        <activity android:name="com.example.bt1_baitoanptb2.ImplicitDemoActivity" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

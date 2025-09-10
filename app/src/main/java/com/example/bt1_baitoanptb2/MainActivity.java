@@ -29,10 +29,10 @@ public class MainActivity extends AppCompatActivity {
 //            startActivity(intent);
 //        });
 
-        Intent intent = getIntent();
-        a = intent.getDoubleExtra("a", 0);
-        b = intent.getDoubleExtra("b", 0);
-        c = intent.getDoubleExtra("c", 0);
+        Intent incomingintent = getIntent();
+        a = incomingintent.getDoubleExtra("a", 0);
+        b = incomingintent.getDoubleExtra("b", 0);
+        c = incomingintent.getDoubleExtra("c", 0);
 
         if (a == 0 && b == 0 && c == 0) {
             editPhuongTrinh.setText("Vui lòng nhấn 'NHẬP' để nhập a, b, c.");
@@ -53,6 +53,13 @@ public class MainActivity extends AppCompatActivity {
             startActivity(nhapIntent);
             finish();
         });
+        Button btnImplicitDemo = findViewById(R.id.btnImplicitDemo);
+        btnImplicitDemo.setOnClickListener(v -> {
+            Intent implicitIntent = new Intent(MainActivity.this, ImplicitDemoActivity.class);
+            startActivity(implicitIntent);
+        });
+
+
     }
     private String formatPhuongTrinh(double a, double b, double c) {
         StringBuilder sb = new StringBuilder();
@@ -72,4 +79,5 @@ public class MainActivity extends AppCompatActivity {
         sb.append(" = 0");
         return sb.toString();
     }
+
 }
